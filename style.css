@@ -7,6 +7,7 @@ body {
   font-weight: 300;
   margin: 0;
   color: #707070;
+  line-height: 1.6;
 }
 header {
   background-color: #f8f8f8;
@@ -82,12 +83,21 @@ strong {
   text-decoration: none;
   color: #717171;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 700;
   text-transform: uppercase;
+  letter-spacing: 1px;
   margin: 0.5rem;
+}
+.top-nav-link:hover,
+.top-nav-link:focus {
+  color: #1792d2;
 }
 .current-page {
   border-bottom: solid 1px #717171;
+}
+.current-page:hover,
+.current-page:focus {
+  color: #707070;
 }
 /* Links */
 .article-read-more {
@@ -134,6 +144,7 @@ Layout
   border: solid 1.5rem #f8f8f8;
   padding: 2rem;
   margin-bottom: 3rem;
+  line-height: 1.4;
 }
 footer {
   min-height: 200px;
